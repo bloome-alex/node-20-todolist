@@ -1,0 +1,8 @@
+query FetchTasks {
+    fetchTasks {
+        id
+        title
+        author
+        checked
+    }
+}

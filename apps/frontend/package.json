@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "front": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.15",
+    "@mdi/font": "5.9.55",
+    "@rollup/plugin-graphql": "^2.0.3",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "roboto-fontface": "*",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "vuetify": "^3.3.2",
+    "webfontloader": "^1.0.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/webfontloader": "^1.0.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "material-design-icons-iconfont": "^6.7.0",
+    "typescript": "^5.0.2",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-pages": "^0.31.0",
+    "vite-plugin-vue-layouts": "^0.8.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-tsc": "^1.4.2"
+  },
+  "type": "module"
+}

@@ -1,0 +1,23 @@
+type Task {
+  title: String!
+  author: String!
+  checked: Boolean!
+  id: ID!
+}
+
+type Query {
+  fetchTasks: [Task]
+}
+
+type Mutation {
+  createTask(input: TaskInput): Task
+  updateTask(input: TaskInput): Task
+  deleteTask(id: String!): Task
+}
+
+input TaskInput {
+  id: String
+  title: String!
+  author: String!
+  checked: Boolean!
+}

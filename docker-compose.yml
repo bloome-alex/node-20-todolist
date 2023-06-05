@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  node20-testapp:
+    image: sndregistry.sondeosglobal.com/node20-test/test-app:1.0.0
+    ports:
+      - "2023:4000"
+    environment:
+      MONGO_URI: "mongodb://192.168.10.44:27017/node20-test"
